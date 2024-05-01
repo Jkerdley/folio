@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Формы</h1>
+    <form>
+      <div>
+        <label for="name">Выберите имя</label>
+        <input type="text" id="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Input email</label>
+        <input type="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+      <br />
+      <div>
+        <label for="number">Number</label>
+        <input type="number" id="number" min="12" />
+      </div>
+      <br />
+      <div>
+        <label for="range">Range</label>
+        <input type="range" id="range" min="0" max="10" step="1" />
+      </div>
+      <br />
+      <div>
+        <label for="Date">Date</label>
+        <input type="Date" id="Date" />
+      </div>
+      <br />
+      <div>
+        <label for="color">color</label>
+        <input type="color" id="color" />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <br />
+        <textarea
+          id="message"
+          cols="25"
+          rows="10"
+          placeholder="Любим заку"
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="sex">Ваш пол</label>
+        <select name="sex" id="sex">
+          <option value="man" selected>Женявка</option>
+          <option value="woman">Zaka</option>
+        </select>
+      </div>
+      <div>
+        <label for="radio">Количество работ</label>
+        <input type="radio" name="work" /> 1
+        <input type="radio" name="work" /> 2
+        <input type="radio" name="work" /> 3
+        <input type="radio" name="work" /> 4
+        <input type="radio" name="work" /> 5
+      </div>
+      <div>
+        <label for="checkbox">Количество работ</label>
+        <input type="checkbox" name="work" /> 1
+        <input type="checkbox" name="work" /> 2
+        <input type="checkbox" name="work" /> 3
+        <input type="checkbox" name="work" /> 4
+        <input type="checkbox" name="work" /> 5
+      </div>
+      <input type="submit" value="Отправить форму" id="" />
+      <button type="submit">Форма в кнопке</button>
+    </form>
+  </body>
+</html>
