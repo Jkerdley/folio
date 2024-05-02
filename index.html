@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          class="avatar"
+          src="https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltb5d92757ac1ee045/blt3e8048a1ff79ec8f/654e660323097a040a67144e/ai-most-attractive-men-from-each-country.png%3Fcrop%3D567%2C566%2Cx4%2Cy0"
+          alt="my avatar"
+        />
+        <div class="info-text">
+          <h1>Евгений Эрдле</h1>
+          <p>
+            Значимость этих проблем настолько очевидна, что рамки и место
+            обучения кадров влечёт за
+            <strong>собой интересный процесс</strong>
+            внедрения модернизации дальнейших направлений развития.
+          </p>
+          <h3>Социальные сети:</h3>
+          <div class="social">
+            <a href="Instagram.com" target="_blank">Instagram</a>
+            <a href="youtube.com" target="_blank">Youtube</a>
+            <a href="telegram.com" target="_blank">Telegram</a>
+          </div>
+        </div>
+      </div>
+      <div class="card hobbie">
+        <h3>Мои хобби:</h3>
+        <ol class="list">
+          <li>Путешествия</li>
+          <li>Дизайн</li>
+          <li>Фотография</li>
+          <li>Сноубординг</li>
+        </ol>
+      </div>
+
+      <div class="card work-expierence">
+        <h3>Опыт работы:</h3>
+        <table class="table">
+          <!-- <thead>
+            <tr>
+              <td>Название</td>
+              <td>Должность</td>
+              <td>Год</td>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Apple</td>
+              <td>Frontend</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Google</td>
+              <td>Frontend</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Facebook</td>
+              <td>Backend</td>
+              <td>2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card courses">
+        <h3>Мои курсы:</h3>
+        <ul class="courseList">
+          <li>Дизайн интерьера</li>
+          <li>Frontend разработка</li>
+        </ul>
+      </div>
+      <form action="submit" class="form">
+        <h2>Call me</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email"> Email: </label>
+
+            <input type="email" placeholder="Введите email" />
+          </div>
+          <div class="form-group">
+            <label for="name"> Your name: </label>
+
+            <input type="name" placeholder="Введите имя" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message" aria-placeholder=""> Ваше сообщение: </label>
+
+          <textarea
+            name="message"
+            placeholder="Введите сообщение"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <input class="btn" type="submit" name="submit" />
+      </form>
+    </div>
+  </body>
+</html>
